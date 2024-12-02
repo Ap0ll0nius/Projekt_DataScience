@@ -1,0 +1,23 @@
+pip install virtualenv in Terminal
+
+Abhängigkeiten als .txt oder yaml-Datei exportieren
+
+
+ mkdir projectDataA
+ cd projectDataA
+ python3.12.3 -m venv env
+
+Aktualisierung von pip auf 24.3.1
+
+pip install pandas scikit-learn
+pip install nltk
+
+danach will es nicht weiter gehen mit dem Code....
+
+
+Conda als Virtual env:
+
+conda create --name myenv python=3.9    # installiert conda mit Python 3.9 (statt 3.12.3)
+conda activate myenv
+pip install pandas scikit-learn nltk #(Meldung: already satisfied)
+pip freeze > requirements.txt  #gibt mir die Requirements als .txt wie in der Aufgabenstellung verlangt
