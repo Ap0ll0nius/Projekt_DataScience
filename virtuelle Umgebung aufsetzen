@@ -15,7 +15,7 @@ pip install nltk
 danach will es nicht weiter gehen mit dem Code....
 
 
-Conda als Virtual env:
+Conda als Virtual env: #mittels "anaconda_prompt" kann man aus dem Anaconda Navigator eine env mit aktiviertem conda launchen
 
 conda create --name myenv python=3.9    # installiert conda mit Python 3.9 (statt 3.12.3)
 conda activate myenv
