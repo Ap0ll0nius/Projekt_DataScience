@@ -21,7 +21,7 @@ nltk.download('punkt')
 .csv-Datei laden bzw. einlesen (mit Fehlermeldung falls eine Spalte nicht richtig benannt ist):
 
 # Load the data
-df = pd.read_csv("your_dataset.csv")
+df = pd.read_csv("university_of_oxford_tripadvisor_reviews.csv")
 
 # Display the first few rows
 print(df.head())
