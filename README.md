@@ -9,6 +9,6 @@ Frühere Dateien waren Testdateien, die ich mit hochgeladen habe.
 Die Werte (z. B. Anzahl der Topics und Anzahl der Top Words) wurden mehrfach getestet und schließlich wird der Code mit dem Wert 5 für die Anzahl der Topics und der Top Words als Standard zur Verfügung gestellt.
 
 Falls Dateien aus dem NLTK nachgeladen werden müssen helfen folgende Zeilen:
-# Download necessary NLTK resources
+
 nltk.download('punkt')
 nltk.download('stopwords')
