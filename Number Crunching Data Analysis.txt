@@ -1,0 +1,366 @@
+Number Crunching
+
+Removed:
+# Download necessary NLTK resources
+nltk.download('punkt')
+nltk.download('stopwords')
+
+immer random_state=42
+
+LSA mit tf-idf:
+Top Words 10, 5 Topics: 
+Topic 1: oxford, university, colleges, visit, tour, buildings, history, see, around, place
+Topic 2: tour, guide, walking, took, us, interesting, day, bus, get, really
+Topic 3: college, church, hall, christ, potter, harry, dining, filmed, magdalen, colleges
+Topic 4: place, visit, history, great, beautiful, harry, potter, amazing, architecture, nice
+Topic 5: around, walk, beautiful, lovely, city, walking, architecture, grounds, buildings, day
+LSA (TF-IDF) - Topic 1 Coherence Score: 0.8434861310008339
+LSA (TF-IDF) - Topic 2 Coherence Score: 0.39342461604341833
+LSA (TF-IDF) - Topic 3 Coherence Score: 0.41618321731290775
+LSA (TF-IDF) - Topic 4 Coherence Score: 0.5187442566917577
+LSA (TF-IDF) - Topic 5 Coherence Score: 0.5087661299711386
+
+Top Words 7, 7 Topics:
+Topic 1: oxford, university, colleges, visit, tour, buildings, history
+Topic 2: tour, guide, walking, took, day, us, interesting
+Topic 3: college, church, hall, christ, potter, harry, dining
+Topic 4: place, visit, history, great, beautiful, harry, potter
+Topic 5: around, walk, beautiful, buildings, lovely, walking, architecture
+Topic 6: many, history, colleges, architecture, interesting, buildings, walking
+Topic 7: see, many, visit, place, worth, much, colleges
+LSA (TF-IDF) - Topic 1 Coherence Score: 0.9290363127127532
+LSA (TF-IDF) - Topic 2 Coherence Score: 0.487993641591162
+LSA (TF-IDF) - Topic 3 Coherence Score: 0.528851221178583
+LSA (TF-IDF) - Topic 4 Coherence Score: 0.596348898145456
+LSA (TF-IDF) - Topic 5 Coherence Score: 0.5698873883462772
+LSA (TF-IDF) - Topic 6 Coherence Score: 0.6321594730537805
+LSA (TF-IDF) - Topic 7 Coherence Score: 0.6248025026030442
+
+Top Words 3, Topics 3:
+Topic 1: oxford, university, colleges
+Topic 2: tour, guide, walking
+Topic 3: college, church, hall
+LSA (TF-IDF) - Topic 1 Coherence Score: 1.3154297944125473
+LSA (TF-IDF) - Topic 2 Coherence Score: 0.8473065072961727
+LSA (TF-IDF) - Topic 3 Coherence Score: 0.573525446473003
+
+Top Words 5, Topics 5:
+Topic 1: oxford, university, colleges, visit, tour
+Topic 2: tour, guide, walking, took, us
+Topic 3: college, church, hall, christ, potter
+Topic 4: place, visit, history, great, beautiful
+Topic 5: around, walk, beautiful, lovely, city
+LSA (TF-IDF) - Topic 1 Coherence Score: 1.0176656573356944
+LSA (TF-IDF) - Topic 2 Coherence Score: 0.5782178135334712
+LSA (TF-IDF) - Topic 3 Coherence Score: 0.5577459740778256
+LSA (TF-IDF) - Topic 4 Coherence Score: 0.7410787482429922
+LSA (TF-IDF) - Topic 5 Coherence Score: 0.5677589249375725
+
+Top words 5, Topics 10:
+Topic 1: oxford, university, colleges, visit, tour
+Topic 2: tour, guide, walking, took, interesting
+Topic 3: college, church, hall, christ, potter
+Topic 4: place, visit, history, great, harry
+Topic 5: around, walk, beautiful, lovely, buildings
+Topic 6: many, colleges, history, interesting, architecture
+Topic 7: city, place, see, visit, worth
+Topic 8: see, harry, potter, many, great
+Topic 9: one, time, architecture, day, love
+Topic 10: great, city, colleges, history, hop
+LSA (TF-IDF) - Topic 1 Coherence Score: 1.0176656573356944
+LSA (TF-IDF) - Topic 2 Coherence Score: 0.5744689777650245
+LSA (TF-IDF) - Topic 3 Coherence Score: 0.5577459740778256
+LSA (TF-IDF) - Topic 4 Coherence Score: 0.6388518810335293
+LSA (TF-IDF) - Topic 5 Coherence Score: 0.6005430706148802
+LSA (TF-IDF) - Topic 6 Coherence Score: 0.6405946265107512
+LSA (TF-IDF) - Topic 7 Coherence Score: 0.638896615215286
+LSA (TF-IDF) - Topic 8 Coherence Score: 0.5312828503913563
+LSA (TF-IDF) - Topic 9 Coherence Score: 0.3986270055054698
+LSA (TF-IDF) - Topic 10 Coherence Score: 0.5078190451877254
+
+Top Words 10, Topics 10:
+Topic 1: oxford, university, colleges, visit, tour, buildings, history, see, around, place
+Topic 2: tour, guide, walking, took, interesting, us, day, bus, get, guided
+Topic 3: college, church, hall, christ, potter, harry, dining, magdalen, filmed, colleges
+Topic 4: place, visit, history, great, harry, potter, amazing, beautiful, architecture, nice
+Topic 5: around, walk, beautiful, lovely, buildings, grounds, city, architecture, see, day
+Topic 6: many, colleges, history, interesting, architecture, visit, different, open, free, see
+Topic 7: city, place, see, visit, worth, hop, time, nice, trip, bus
+Topic 8: see, harry, potter, many, great, city, much, walking, filmed, place
+Topic 9: one, time, architecture, day, love, could, visiting, history, world, spend
+Topic 10: great, city, colleges, history, hop, architecture, church, college, christ, different
+LSA (TF-IDF) - Topic 1 Coherence Score: 0.8434861310008339
+LSA (TF-IDF) - Topic 2 Coherence Score: 0.3715484011711274
+LSA (TF-IDF) - Topic 3 Coherence Score: 0.41618321731290775
+LSA (TF-IDF) - Topic 4 Coherence Score: 0.5187442566917577
+LSA (TF-IDF) - Topic 5 Coherence Score: 0.5241803754746421
+LSA (TF-IDF) - Topic 6 Coherence Score: 0.46818811137636585
+LSA (TF-IDF) - Topic 7 Coherence Score: 0.4047374261807226
+LSA (TF-IDF) - Topic 8 Coherence Score: 0.4223415109299183
+LSA (TF-IDF) - Topic 9 Coherence Score: 0.34057914807441314
+LSA (TF-IDF) - Topic 10 Coherence Score: 0.40960258907929364
+
+Top 6 Words, 20 Topics:
+Topic 1: oxford, university, colleges, visit, tour, buildings
+Topic 2: tour, guide, walking, took, us, interesting
+Topic 3: college, church, hall, christ, potter, harry
+Topic 4: place, visit, history, great, harry, potter
+Topic 5: around, walk, beautiful, lovely, buildings, architecture
+Topic 6: many, colleges, history, interesting, architecture, open
+Topic 7: see, place, city, visit, time, worth
+Topic 8: see, great, harry, much, potter, city
+Topic 9: time, one, could, see, world, day
+Topic 10: city, history, hop, colleges, amazing, worth
+Topic 11: great, day, place, colleges, one, different
+Topic 12: great, college, buildings, history, would, make
+Topic 13: great, worth, one, world, trip, well
+Topic 14: town, oxford, many, day, history, see
+Topic 15: walking, beautiful, one, town, get, take
+Topic 16: beautiful, colleges, see, great, really, go
+Topic 17: nice, beautiful, see, lovely, many, must
+Topic 18: city, interesting, beautiful, people, visit, old
+Topic 19: amazing, nice, town, visiting, architecture, university
+Topic 20: around, history, university, would, different, great
+LSA (TF-IDF) - Topic 1 Coherence Score: 0.9647480715941958
+LSA (TF-IDF) - Topic 2 Coherence Score: 0.5069992285534097
+LSA (TF-IDF) - Topic 3 Coherence Score: 0.5691198993530625
+LSA (TF-IDF) - Topic 4 Coherence Score: 0.6051509628920442
+LSA (TF-IDF) - Topic 5 Coherence Score: 0.5892615668698193
+LSA (TF-IDF) - Topic 6 Coherence Score: 0.5367492318765884
+LSA (TF-IDF) - Topic 7 Coherence Score: 0.6030816793448488
+LSA (TF-IDF) - Topic 8 Coherence Score: 0.47546689376027
+LSA (TF-IDF) - Topic 9 Coherence Score: 0.38885512712679987
+LSA (TF-IDF) - Topic 10 Coherence Score: 0.46473870386937155
+LSA (TF-IDF) - Topic 11 Coherence Score: 0.5287906199926403
+LSA (TF-IDF) - Topic 12 Coherence Score: 0.44163398092318423
+LSA (TF-IDF) - Topic 13 Coherence Score: 0.3787207879646984
+LSA (TF-IDF) - Topic 14 Coherence Score: 0.6482197596913416
+LSA (TF-IDF) - Topic 15 Coherence Score: 0.37666095355825585
+LSA (TF-IDF) - Topic 16 Coherence Score: 0.5319302227869191
+LSA (TF-IDF) - Topic 17 Coherence Score: 0.36451253828736147
+LSA (TF-IDF) - Topic 18 Coherence Score: 0.38983923073306864
+LSA (TF-IDF) - Topic 19 Coherence Score: 0.42071521448969307
+LSA (TF-IDF) - Topic 20 Coherence Score: 0.543043395185483
+
+
+--------------------------------------
+
+
+LSA mit BoW
+
+Top Words 10, Topics 5, Random_state 42:
+Topic 1: oxford, university, colleges, college, visit, one, buildings, see, tour, many
+Topic 2: oxford, university, city, cambridge, english, universities, students, town, world, teaching
+Topic 3: college, university, colleges, church, merton, street, world, one, oldest, christ
+Topic 4: oxford, tour, college, day, city, london, walking, train, trip, street
+Topic 5: colleges, city, around, visitors, open, visit, walk, see, well, several
+LSA (BoW) - Topic 1 Coherence Score: 5.578871626033516
+LSA (BoW) - Topic 2 Coherence Score: 3.624961595470655
+LSA (BoW) - Topic 3 Coherence Score: 4.640133441489119
+LSA (BoW) - Topic 4 Coherence Score: 4.103232093165759
+LSA (BoW) - Topic 5 Coherence Score: 4.22909551398272
+
+Top Words 5, Topics 10:
+Topic 1: oxford, university, colleges, college, visit
+Topic 2: oxford, university, city, cambridge, english
+Topic 3: college, university, colleges, church, merton
+Topic 4: oxford, tour, college, day, city
+Topic 5: colleges, city, around, visitors, open
+Topic 6: visit, place, oxford, one, also
+Topic 7: tour, colleges, visit, guide, university
+Topic 8: one, many, around, also, world
+Topic 9: see, colleges, harry, one, potter
+Topic 10: history, many, place, buildings, colleges
+LSA (BoW) - Topic 1 Coherence Score: 6.16363825764509
+LSA (BoW) - Topic 2 Coherence Score: 4.4482805605119005
+LSA (BoW) - Topic 3 Coherence Score: 5.170990588720528
+LSA (BoW) - Topic 4 Coherence Score: 5.1954866507270205
+LSA (BoW) - Topic 5 Coherence Score: 4.4103376535796475
+LSA (BoW) - Topic 6 Coherence Score: 5.370254369262076
+LSA (BoW) - Topic 7 Coherence Score: 5.2425426769442485
+LSA (BoW) - Topic 8 Coherence Score: 4.455868755216078
+LSA (BoW) - Topic 9 Coherence Score: 4.77735702514966
+LSA (BoW) - Topic 10 Coherence Score: 5.03332087794724
+
+Werte steigen etwas
+
+Top Words 5, Topics 5:
+Topic 1: oxford, university, colleges, college, visit
+Topic 2: oxford, university, city, cambridge, english
+Topic 3: college, university, colleges, church, merton
+Topic 4: oxford, tour, college, day, city
+Topic 5: colleges, city, around, visitors, open
+LSA (BoW) - Topic 1 Coherence Score: 6.16363825764509
+LSA (BoW) - Topic 2 Coherence Score: 4.4482805605119005
+LSA (BoW) - Topic 3 Coherence Score: 5.170990588720528
+LSA (BoW) - Topic 4 Coherence Score: 5.1954866507270205
+LSA (BoW) - Topic 5 Coherence Score: 4.4103376535796475
+
+Top words 10, Topics 10:
+Topic 1: oxford, university, colleges, college, visit, one, buildings, see, tour, many
+Topic 2: oxford, university, city, cambridge, english, universities, students, town, world, teaching
+Topic 3: college, university, colleges, church, merton, street, world, one, oldest, christ
+Topic 4: oxford, tour, college, day, city, walking, london, train, street, trip
+Topic 5: colleges, city, around, visitors, open, visit, walk, see, public, several
+Topic 6: visit, place, oxford, one, also, students, worth, college, potter, harry
+Topic 7: tour, colleges, visit, guide, university, one, us, guided, recommend, charge
+Topic 8: one, many, around, also, world, walking, street, oldest, go, walk
+Topic 9: see, colleges, harry, one, potter, great, students, many, hall, could
+Topic 10: history, many, place, buildings, colleges, architecture, beautiful, walking, amazing, oxford
+LSA (BoW) - Topic 1 Coherence Score: 5.578871626033516
+LSA (BoW) - Topic 2 Coherence Score: 3.624961595470655
+LSA (BoW) - Topic 3 Coherence Score: 4.640133441489119
+LSA (BoW) - Topic 4 Coherence Score: 4.103232093165759
+LSA (BoW) - Topic 5 Coherence Score: 4.028111167308588
+LSA (BoW) - Topic 6 Coherence Score: 4.548925250637163
+LSA (BoW) - Topic 7 Coherence Score: 3.980554159964642
+LSA (BoW) - Topic 8 Coherence Score: 4.059213211101414
+LSA (BoW) - Topic 9 Coherence Score: 4.138440037798767
+LSA (BoW) - Topic 10 Coherence Score: 4.764013438065867
+
+------------------------------------------------------------
+
+LDA mit TF-IDF
+
+Top Words 10, Topics 5:
+Topic 1: architecture, oxford, visit, tour, see, colleges, time, university, college, buildings
+Topic 2: oxford, colleges, university, city, history, place, visit, many, one, buildings
+Topic 3: oxford, university, visit, colleges, place, great, college, one, see, buildings
+Topic 4: oxford, university, around, colleges, tour, see, beautiful, place, city, history
+Topic 5: university, history, oxford, buildings, tour, colleges, visit, beautiful, great, architecture
+LDA (TF-IDF) - Topic 1 Coherence Score: 0.7475713721875561
+LDA (TF-IDF) - Topic 2 Coherence Score: 0.8109146333895719
+LDA (TF-IDF) - Topic 3 Coherence Score: 0.77580716268518
+LDA (TF-IDF) - Topic 4 Coherence Score: 0.8085267883319059
+LDA (TF-IDF) - Topic 5 Coherence Score: 0.8054670234467177
+
+
+Top Words 5, Topics 10:
+Topic 1: oxford, day, university, visit, around
+Topic 2: colleges, university, oxford, many, city
+Topic 3: university, oxford, colleges, hall, tour
+Topic 4: oxford, university, colleges, beautiful, visit
+Topic 5: university, visit, colleges, place, around
+Topic 6: oxford, university, visit, place, history
+Topic 7: university, buildings, oxford, history, place
+Topic 8: architecture, visited, oxford, visitors, colleges
+Topic 9: colleges, walking, one, oxford, around
+Topic 10: oxford, colleges, university, see, college
+LDA (TF-IDF) - Topic 1 Coherence Score: 0.9151928609938917
+LDA (TF-IDF) - Topic 2 Coherence Score: 1.015106734867326
+LDA (TF-IDF) - Topic 3 Coherence Score: 0.7974866365582887
+LDA (TF-IDF) - Topic 4 Coherence Score: 1.019294044538091
+LDA (TF-IDF) - Topic 5 Coherence Score: 0.8591613535423693
+LDA (TF-IDF) - Topic 6 Coherence Score: 1.0009665007833042
+LDA (TF-IDF) - Topic 7 Coherence Score: 0.9638260853967566
+LDA (TF-IDF) - Topic 8 Coherence Score: 0.48308937469571545
+LDA (TF-IDF) - Topic 9 Coherence Score: 0.8223213299831842
+LDA (TF-IDF) - Topic 10 Coherence Score: 0.9473410152999154
+
+
+Top Words 5, Topics 5:
+Topic 1: architecture, oxford, visit, tour, see
+Topic 2: oxford, colleges, university, city, history
+Topic 3: oxford, university, visit, colleges, place
+Topic 4: oxford, university, around, colleges, tour
+Topic 5: university, history, oxford, buildings, tour
+LDA (TF-IDF) - Topic 1 Coherence Score: 0.734057596642711
+LDA (TF-IDF) - Topic 2 Coherence Score: 1.0277233071725544
+LDA (TF-IDF) - Topic 3 Coherence Score: 1.0267885819490714
+LDA (TF-IDF) - Topic 4 Coherence Score: 1.0090933521405767
+LDA (TF-IDF) - Topic 5 Coherence Score: 0.9618031720746231
+
+Top words 10, Topics 10:
+Topic 1: oxford, day, university, visit, around, buildings, tour, see, walk, great
+Topic 2: colleges, university, oxford, many, city, around, experience, wonderful, history, buildings
+Topic 3: university, oxford, colleges, hall, tour, place, harry, history, beautiful, see
+Topic 4: oxford, university, colleges, beautiful, visit, city, buildings, interesting, students, old
+Topic 5: university, visit, colleges, place, around, college, many, oxford, buildings, different
+Topic 6: oxford, university, visit, place, history, beautiful, architecture, tour, buildings, colleges
+Topic 7: university, buildings, oxford, history, place, guide, tour, see, around, colleges
+Topic 8: architecture, visited, oxford, visitors, colleges, open, history, institution, charge, visit
+Topic 9: colleges, walking, one, oxford, around, many, university, tour, college, buildings
+Topic 10: oxford, colleges, university, see, college, tour, history, city, buildings, one
+LDA (TF-IDF) - Topic 1 Coherence Score: 0.7411634567700759
+LDA (TF-IDF) - Topic 2 Coherence Score: 0.677573550353777
+LDA (TF-IDF) - Topic 3 Coherence Score: 0.662735355736478
+LDA (TF-IDF) - Topic 4 Coherence Score: 0.6476622818322421
+LDA (TF-IDF) - Topic 5 Coherence Score: 0.7214853682636116
+LDA (TF-IDF) - Topic 6 Coherence Score: 0.8259599673646537
+LDA (TF-IDF) - Topic 7 Coherence Score: 0.7668915489495562
+LDA (TF-IDF) - Topic 8 Coherence Score: 0.35059269964092715
+LDA (TF-IDF) - Topic 9 Coherence Score: 0.7577439446874736
+LDA (TF-IDF) - Topic 10 Coherence Score: 0.7819757634252451
+
+------------------------------------------------
+
+LDA mit Bow
+
+Top Words 10, Topics 5:
+Topic 1: oxford, tour, buildings, visit, day, university, time, architecture, great, worth
+Topic 2: university, oxford, colleges, city, visit, many, one, buildings, place, college
+Topic 3: see, harry, potter, oxford, university, college, colleges, hall, history, place
+Topic 4: oxford, university, colleges, around, city, buildings, visit, history, tour, one
+Topic 5: tour, university, oxford, history, colleges, great, visit, college, guide, buildings
+LDA (BoW) - Topic 1 Coherence Score: 4.944398690650798
+LDA (BoW) - Topic 2 Coherence Score: 5.487689535802028
+LDA (BoW) - Topic 3 Coherence Score: 4.8961019032422515
+LDA (BoW) - Topic 4 Coherence Score: 5.423513005774595
+LDA (BoW) - Topic 5 Coherence Score: 5.236769670574864
+
+Top Words 10, Topics 10:
+Topic 1: oxford, tour, buildings, time, visit, day, university, architecture, beautiful, walk
+Topic 2: colleges, university, oxford, city, many, history, beautiful, college, one, see
+Topic 3: oxford, hall, see, harry, potter, college, church, colleges, around, christ
+Topic 4: oxford, university, colleges, around, buildings, city, visit, walking, see, tour
+Topic 5: tour, colleges, oxford, university, history, guide, visit, great, college, buildings
+Topic 6: oxford, university, place, visit, one, colleges, world, great, history, buildings
+Topic 7: university, see, colleges, history, oxford, buildings, much, beautiful, architecture, around
+Topic 8: colleges, architecture, university, visit, oxford, history, one, place, visited, amazing
+Topic 9: college, colleges, university, oxford, one, many, buildings, street, would, library
+Topic 10: oxford, colleges, university, many, college, visit, tour, church, history, around
+LDA (BoW) - Topic 1 Coherence Score: 4.995530754459616
+LDA (BoW) - Topic 2 Coherence Score: 5.374684461996376
+LDA (BoW) - Topic 3 Coherence Score: 4.670899381953395
+LDA (BoW) - Topic 4 Coherence Score: 5.394820083396668
+LDA (BoW) - Topic 5 Coherence Score: 5.236769670574864
+LDA (BoW) - Topic 6 Coherence Score: 5.256298977916229
+LDA (BoW) - Topic 7 Coherence Score: 5.127804861268619
+LDA (BoW) - Topic 8 Coherence Score: 4.854605227579747
+LDA (BoW) - Topic 9 Coherence Score: 5.139344324253707
+LDA (BoW) - Topic 10 Coherence Score: 5.3320461383494
+
+Top Words 5, Topics 10:
+Topic 1: oxford, tour, buildings, time, visit
+Topic 2: colleges, university, oxford, city, many
+Topic 3: oxford, hall, see, harry, potter
+Topic 4: oxford, university, colleges, around, buildings
+Topic 5: tour, colleges, oxford, university, history
+Topic 6: oxford, university, place, visit, one
+Topic 7: university, see, colleges, history, oxford
+Topic 8: colleges, architecture, university, visit, oxford
+Topic 9: college, colleges, university, oxford, one
+Topic 10: oxford, colleges, university, many, college
+LDA (BoW) - Topic 1 Coherence Score: 5.303293471300515
+LDA (BoW) - Topic 2 Coherence Score: 5.936683609698169
+LDA (BoW) - Topic 3 Coherence Score: 4.620456969815725
+LDA (BoW) - Topic 4 Coherence Score: 5.992877564256302
+LDA (BoW) - Topic 5 Coherence Score: 5.9039093619199905
+LDA (BoW) - Topic 6 Coherence Score: 5.831388117355595
+LDA (BoW) - Topic 7 Coherence Score: 5.9315776089913275
+LDA (BoW) - Topic 8 Coherence Score: 5.799286542964528
+LDA (BoW) - Topic 9 Coherence Score: 6.187360992432678
+LDA (BoW) - Topic 10 Coherence Score: 6.089476995746121
+
+
+Top Words 5, Topics 5:
+Topic 1: oxford, tour, buildings, visit, day
+Topic 2: university, oxford, colleges, city, visit
+Topic 3: see, harry, potter, oxford, university
+Topic 4: oxford, university, colleges, around, city
+Topic 5: tour, university, oxford, history, colleges
+LDA (BoW) - Topic 1 Coherence Score: 5.410830510159483
+LDA (BoW) - Topic 2 Coherence Score: 6.031038907373289
+LDA (BoW) - Topic 3 Coherence Score: 5.215109820302698
+LDA (BoW) - Topic 4 Coherence Score: 5.953811413330107
+LDA (BoW) - Topic 5 Coherence Score: 5.903909361919989
