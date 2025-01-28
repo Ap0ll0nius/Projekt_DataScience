@@ -12,12 +12,9 @@ Aktualisierung von pip auf 24.3.1
 pip install pandas scikit-learn
 pip install nltk
 
-danach will es nicht weiter gehen mit dem Code....
-
-
 Conda als Virtual env: #mittels "anaconda_prompt" kann man aus dem Anaconda Navigator eine env mit aktiviertem conda launchen
 
 conda create --name myenv python=3.9    # installiert conda mit Python 3.9 (statt 3.12.3)
 conda activate myenv
 pip install pandas scikit-learn nltk #(Meldung: already satisfied)
-pip freeze > requirements.txt  #gibt mir die Requirements als .txt wie in der Aufgabenstellung verlangt
+conda env export > environment.yml gibt mir die Requirements als .yml wie in der Aufgabenstellung verlangt
